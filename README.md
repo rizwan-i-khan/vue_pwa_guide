@@ -25,6 +25,7 @@ For setting up vuestorefront environment you must have to install below componen
 		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/ <br/>
 		
 3: Install imagemagick library. <br/>
+	https://tecadmin.net/install-imagemagick-on-linux/ <br/>
 
 4: Elasticsearch and Redis server. <br/>
 	Redis: https://tecadmin.net/install-redis-ubuntu/ <br/>
@@ -130,11 +131,11 @@ There are two methods to setup vuestorefront.
 
 	4: open localhost:3000
 
-=> Additional tips and commands.
-	= Upgrade your npm to latest version
-		npm install npm -g
-	= Stop redis: sudo systemctl stop redis-server.service
-	= Stop elastic search: sudo systemctl stop elasticsearch.service
-	= After importing data to elastic search you can check your data by hitting KIBANA.
+=> Additional tips and commands. <br/>
+	- Upgrade your npm to latest version <br/>
+		npm install npm -g <br/>
+	- Stop redis: sudo systemctl stop redis-server.service <br/>
+	- Stop elastic search: sudo systemctl stop elasticsearch.service <br/>
+	- After importing data to elastic search you can check your data by hitting KIBANA. <br/>
 		http://localhost:5601/
 
