@@ -1,4 +1,4 @@
-<h2>Guide for installing vuestorefront pwa.</h2>
+<h2>Guide for installing vuestorefront pwa. </h2>
 Vue Storefront is the biggest and most complete PWA for magento sites.
 
 <h4>Some of the key elements of vuestorefront.</h4>
