@@ -55,9 +55,9 @@ There are two methods to setup vuestorefront. <br/>
 	7: Path for images endpoint.
 		http://localhost:8080/img/
 
-	8: It takes some time for installation and after successful installation you can see below screen.
+	8: It takes some time for installation and after successful installation you can see success screen.
 
-	if you see above screen that means.
+	if you see success screen that means.
 		- You got Redis and Elastic Search up and running.
 		- vue-storefront is up and running on localhost:3000
 		- vue-storefront-api us running on localhost:8080
