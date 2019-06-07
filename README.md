@@ -16,12 +16,15 @@ VueStorefront Prerequisites and system requirements.
 For setting up vuestorefront environment you must have to install below components.
 1: Latest version of Docker.
 	https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-16-04-3f509070d29c
+	
 2: Node.js, version > 8.0.0, and yarn.
 	First install node.js and npm.
 		https://itsfoss.com/install-nodejs-ubuntu/
 	Install yarn.
 		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/
+		
 3: Install imagemagick library.
+
 4: Elasticsearch and Redis server.
 	Redis: https://tecadmin.net/install-redis-ubuntu/
 	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/
@@ -126,14 +129,11 @@ There are two methods to setup vuestorefront.
 
 	4: open localhost:3000
 
-	=> Additional tips and commands.
-		= upgrade your npm to latest version
-			npm install npm -g
-
-		= stop redis: sudo systemctl stop redis-server.service
-
-		= stop elastic search: sudo systemctl stop elasticsearch.service
-
-		= after importing data to elastic search you can check your data by hitting KIBANA.
-			http://localhost:5601/
+=> Additional tips and commands.
+	= Upgrade your npm to latest version
+		npm install npm -g
+	= Stop redis: sudo systemctl stop redis-server.service
+	= Stop elastic search: sudo systemctl stop elasticsearch.service
+	= After importing data to elastic search you can check your data by hitting KIBANA.
+		http://localhost:5601/
 
