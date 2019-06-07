@@ -127,7 +127,7 @@ There are two methods to setup vuestorefront.
 	4: open localhost:3000
 
 	=> Additional tips and commands.
-		= upgrade youe npm to latest version
+		= upgrade your npm to latest version
 			npm install npm -g
 
 		= stop redis: sudo systemctl stop redis-server.service
