@@ -32,9 +32,9 @@ For setting up vuestorefront environment you must have to install below componen
 	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/  <br/>
 
 
-There are two methods to setup vuestorefront.
-1: Using CLI installation.
-	You can install vuestorefront anywhere on server but we preferred it to be resides in magento directory.
+There are two methods to setup vuestorefront. <br/>
+1: Using CLI installation. <br/>
+	You can install vuestorefront anywhere on server but we preferred it to be resides in magento directory. <br/>
 
 	1: First install vuestorefront using below command.
 		`git clone https://github.com/DivanteLtd/vue-storefront.git vue-storefront`
