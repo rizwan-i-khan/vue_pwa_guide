@@ -3,31 +3,32 @@ Vue Storefront is the biggest and most complete PWA for magento sites.
 
 <h4>Some of the key elements of vuestorefront.</h4>
 1: All devices and platforms
-	Deliver a 100% responsive and smooth shopping experience without developing apps for different web browsers and platforms like iOS, Android, windows Etc.
+	<p>Deliver a 100% responsive and smooth shopping experience without developing apps for different web browsers and platforms like iOS, Android, windows Etc.</p>
 
 2: Incredible performance
-	With help of node.js, vue.js and excellent search mechanism of Elasticsearch give incredible performance. vuestorefront can achieve Google page speed Accessibility score 89, Performance score 89, SEO score 92 and 100 PWA score.
+	<p>With help of node.js, vue.js and excellent search mechanism of Elasticsearch give incredible performance. vuestorefront can achieve Google page speed Accessibility score 89, Performance score 89, SEO score 92 and 100 PWA score.</p>
 
 3: Native functionalities.
-	Take advantage of push notifications, home-screen install access[currently for android], and full-screen mode. It also make sure that store works in offline mode with poor connection. and it also support functionality to place orders offline!!
+	<p>Take advantage of push notifications, home-screen install access[currently for android], and full-screen mode. It also make sure that store works in offline mode with poor connection. and it also support functionality to place orders offline!!</p>
 
 
-VueStorefront Prerequisites and system requirements.
+<h3>VueStorefront Prerequisites and system requirements.</h3>
 For setting up vuestorefront environment you must have to install below components.
+
 1: Latest version of Docker.
-	https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-16-04-3f509070d29c
+	https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-16-04-3f509070d29c  
 	
 2: Node.js, version > 8.0.0, and yarn.
 	First install node.js and npm.
 		https://itsfoss.com/install-nodejs-ubuntu/
 	Install yarn.
-		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/
+		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/  
 		
-3: Install imagemagick library.
+3: Install imagemagick library.  
 
 4: Elasticsearch and Redis server.
 	Redis: https://tecadmin.net/install-redis-ubuntu/
-	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/
+	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/  
 
 
 There are two methods to setup vuestorefront.
