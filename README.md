@@ -15,20 +15,20 @@ Vue Storefront is the biggest and most complete PWA for magento sites.
 <h3>VueStorefront Prerequisites and system requirements.</h3>
 For setting up vuestorefront environment you must have to install below components.
 
-1: Latest version of Docker.
+1: Latest version of Docker. <br/>
 	https://medium.com/@Grigorkh/how-to-install-docker-on-ubuntu-16-04-3f509070d29c  
 	
-2: Node.js, version > 8.0.0, and yarn.
-	First install node.js and npm.
-		https://itsfoss.com/install-nodejs-ubuntu/
-	Install yarn.
-		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/  
+2: Node.js, version > 8.0.0, and yarn. <br/>
+	First install node.js and npm. <br/>
+		https://itsfoss.com/install-nodejs-ubuntu/ <br/>
+	Install yarn. <br/>
+		https://www.hostinger.in/tutorials/how-to-install-yarn-on-ubuntu/ <br/>
 		
-3: Install imagemagick library.  
+3: Install imagemagick library. <br/>
 
-4: Elasticsearch and Redis server.
-	Redis: https://tecadmin.net/install-redis-ubuntu/
-	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/  
+4: Elasticsearch and Redis server. <br/>
+	Redis: https://tecadmin.net/install-redis-ubuntu/ <br/>
+	elastic search: https://tecadmin.net/setup-elasticsearch-on-ubuntu/  <br/>
 
 
 There are two methods to setup vuestorefront.
