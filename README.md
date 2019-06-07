@@ -64,7 +64,8 @@ There are two methods to setup vuestorefront. <br/>
 
 	=> Working with local instances.
 		Our basic instance are ready and we can move to integrate with local magento instance.
-		First you need to install mage2vuestorefront — which is simple. (docs)
+		First you need to install mage2vuestorefront — which is simple. 
+		https://github.com/DivanteLtd/mage2vuestorefront
 
 		1: git clone https://github.com/DivanteLtd/mage2vuestorefront.git mage2vs cd mage2vs/src npm install
 
