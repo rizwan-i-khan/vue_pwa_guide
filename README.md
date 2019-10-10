@@ -138,7 +138,9 @@ There are two methods to setup vuestorefront. <br/>
 	- Stop redis: sudo systemctl stop redis-server.service <br/>
 	- Stop elastic search: sudo systemctl stop elasticsearch.service <br/>
 	- After importing data to elastic search you can check your data by hitting KIBANA. <br/>
-		http://localhost:5601/
+		http://localhost:5601/<br/>
         - Kill all running containers<br/>
          docker kill $(docker ps -q)<br/>
-         docker rm -f $(docker ps -aq)
+         docker rm -f $(docker ps -aq)<br/>
+         - install yarn <br/> 
+	 https://stackoverflow.com/a/54147594/5577053
