@@ -121,6 +121,9 @@ There are two methods to setup vuestorefront. <br/>
 	Restart all instances in manual mode.
 	1: go to vuestorefront-api folder and up the docker.
 	docker-compose up -d
+	
+	Restart elasticsearch service if you encounter error of address already in used.
+		- sudo service elastic search restart
 
 	2: import data of magento2 to elasticsearch.
 		-> yarn mage2vs import
