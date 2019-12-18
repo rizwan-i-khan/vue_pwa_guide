@@ -146,6 +146,6 @@ There are two methods to setup vuestorefront. <br/>
          docker kill $(docker ps -q)<br/>
          docker rm -f $(docker ps -aq)<br/>
          - install yarn <br/> 
-	 https://stackoverflow.com/a/54147594/5577053
-	- certificate error when installing yarn install
+	 https://stackoverflow.com/a/54147594/5577053 <br/> 
+	- certificate error when installing yarn install <br/> 
 	   - yarn config set "strict-ssl" false
