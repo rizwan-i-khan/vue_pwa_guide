@@ -148,4 +148,6 @@ There are two methods to setup vuestorefront. <br/>
          - install yarn <br/> 
 	 https://stackoverflow.com/a/54147594/5577053 <br/> 
 	- certificate error when installing yarn install <br/> 
-	   - yarn config set "strict-ssl" false
+	   - yarn config set "strict-ssl" false <br/>
+	- <b>View ALL indices of elasticsearch</b><br/>
+   		- http://localhost:9200/_cat/indices
