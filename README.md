@@ -136,18 +136,18 @@ There are two methods to setup vuestorefront. <br/>
 	4: open localhost:3000
 
 => Additional tips and commands. <br/>
-	- Upgrade your npm to latest version <br/>
+	- <b>Upgrade your npm to latest version</b> <br/>
 		npm install npm -g <br/>
 	- Stop redis: sudo systemctl stop redis-server.service <br/>
 	- Stop elastic search: sudo systemctl stop elasticsearch.service <br/>
 	- After importing data to elastic search you can check your data by hitting KIBANA. <br/>
 		http://localhost:5601/<br/>
-        - Kill all running containers<br/>
+        - <b>Kill all running containers</b><br/>
          docker kill $(docker ps -q)<br/>
          docker rm -f $(docker ps -aq)<br/>
-         - install yarn <br/> 
+         - <b>install yarn</b> <br/> 
 	 https://stackoverflow.com/a/54147594/5577053 <br/> 
-	- certificate error when installing yarn install <br/> 
+	- <b>certificate error when installing yarn install</b> <br/> 
 	   - yarn config set "strict-ssl" false <br/>
 	- <b>View ALL indices of elasticsearch</b><br/>
    		- http://localhost:9200/_cat/indices
