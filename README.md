@@ -151,4 +151,6 @@ There are two methods to setup vuestorefront. <br/>
 	   - yarn config set "strict-ssl" false <br/>
 	- <b>View ALL indices of elasticsearch</b><br/>
    		- http://localhost:9200/_cat/indices
-	- Introduction to <a href="https://medium.com/@ashish_fagna/getting-started-with-elasticsearch-creating-indices-inserting-values-and-retrieving-data-e3122e9b12c6">Elasticsearch</a>
+	- Introduction to <a href="https://medium.com/@ashish_fagna/getting-started-with-elasticsearch-creating-indices-inserting-values-and-retrieving-data-e3122e9b12c6">Elasticsearch</a><br/>
+	- <b>Deleting all indices from elasticsearch</b><br/>
+		- curl -X DELETE 'http://localhost:9200/_all' <br/>
