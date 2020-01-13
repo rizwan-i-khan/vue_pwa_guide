@@ -154,3 +154,6 @@ There are two methods to setup vuestorefront. <br/>
 	- Introduction to <a href="https://medium.com/@ashish_fagna/getting-started-with-elasticsearch-creating-indices-inserting-values-and-retrieving-data-e3122e9b12c6">Elasticsearch</a><br/>
 	- <b>Deleting all indices from elasticsearch</b><br/>
 		- curl -X DELETE 'http://localhost:9200/_all' <br/>
+<b>Reverse Proxy</b><br/>
+<a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04">Nginx</a> 
+<a href="https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-ubuntu-16-04">Apache</a> 
