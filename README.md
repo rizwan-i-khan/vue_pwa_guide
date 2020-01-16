@@ -156,4 +156,6 @@ There are two methods to setup vuestorefront. <br/>
 		- curl -X DELETE 'http://localhost:9200/_all' <br/>
 <b>Reverse Proxy</b><br/>
 <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04">Nginx</a> 
-<a href="https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-ubuntu-16-04">Apache</a> 
+<a href="https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-ubuntu-16-04">Apache</a> <br/>
+<b>Error: self signed certificate in certificate Error </b><br/>
+<pre> Run yarn install like this <b>NODE_TLS_REJECT_UNAUTHORIZED=0 yarn install</b> </pre>
